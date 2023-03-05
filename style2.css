@@ -1,0 +1,56 @@
+.button {   /*第一個按鈕*/
+    position: absolute;
+    left: 600px;
+    top: 700px;
+    z-index: 999;
+    background-color: #bce8f1;  /*按鈕顏色*/
+    font-size: 1.3cm;
+    font-family: 標楷體;
+    text-align: center; /*字體位置*/
+    border-radius:20px
+}
+.button:active {
+    background-color: #F5DF4D;  /*按鈕顏色*/
+    box-shadow: 0 8px #666; /*按鈕陰影*/
+    transform: translateY(6px);
+}
+.button2 {  /*第二個按鈕*/
+    position: absolute;
+    left: 1000px;
+    top: 700px;
+    z-index: 999;
+    background-color: #bce8f1;  /*按鈕顏色*/
+    font-size: 1.3cm;
+    font-family: 標楷體;
+    text-align: center; /*字體位置*/
+    border-radius:20px
+}
+.button2:active {
+    background-color: #F5DF4D;  /*按鈕顏色*/
+    box-shadow: 0 8px #666; /*按鈕陰影*/
+    transform: translateY(6px);
+}
+.button3 {  /*第三個按鈕*/
+    position: absolute;
+    left: 1400px;
+    top: 700px;
+    z-index: 999;
+    background-color: #bce8f1;  /*按鈕顏色*/
+    font-size: 1.3cm;
+    font-family: 標楷體;
+    text-align: center; /*字體位置*/
+    border-radius:20px
+}
+.button3:active {
+    background-color: #F5DF4D;  /*按鈕顏色*/
+    box-shadow: 0 8px #666; /*按鈕陰影*/
+    transform: translateY(6px);
+}
+.h1{
+    position: absolute;
+    color:white;    /*文字顏色*/
+    top: 250px;
+    left: 870px;
+    text-align: left;   /*文字靠左對齊*/
+    font-size: 50px;    /*文字大小*/
+}
