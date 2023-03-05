@@ -1,7 +1,7 @@
 .button {   /*第一個按鈕*/
     position: absolute;
-    left: 600px;
-    top: 700px;
+    left: 20%;
+    top: 80%;
     z-index: 999;
     background-color: #bce8f1;  /*按鈕顏色*/
     font-size: 1.3cm;
@@ -16,8 +16,8 @@
 }
 .button2 {  /*第二個按鈕*/
     position: absolute;
-    left: 1000px;
-    top: 700px;
+    left: 45%;
+    top: 80%;
     z-index: 999;
     background-color: #bce8f1;  /*按鈕顏色*/
     font-size: 1.3cm;
@@ -32,8 +32,8 @@
 }
 .button3 {  /*第三個按鈕*/
     position: absolute;
-    left: 1400px;
-    top: 700px;
+    left: 70%;
+    top: 80%;
     z-index: 999;
     background-color: #bce8f1;  /*按鈕顏色*/
     font-size: 1.3cm;
@@ -48,9 +48,17 @@
 }
 .h1{
     position: absolute;
-    color:white;    /*文字顏色*/
-    top: 250px;
-    left: 870px;
+    color: white;    /*文字顏色*/
+    top: 30%;
+    left: 45%;
     text-align: left;   /*文字靠左對齊*/
     font-size: 50px;    /*文字大小*/
+}
+.pic{
+    width: 20%;
+    height: 25%;
+    z-index: 100;
+    position: absolute;
+    left: 22%;
+    top: 27%;
 }
