@@ -62,3 +62,8 @@
     left: 22%;
     top: 27%;
 }
+#text{
+    color: #32373c;
+    position: absolute;
+    left: 3%;
+}
