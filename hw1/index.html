@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Error!</title>
+    <link rel="icon" href="https://feifei.tw/wp-content/uploads/2022/01/cropped-1969633532379768751_99-32x32.jpg" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <meta name="description" content="This website has a wealth of information security related knowledge. If you are a beginner in information security, welcome to this site. You will get a lot of rich knowledge here. Enjoy your time!">
+    <title>資安這條路</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <title>Page Error!</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="https://feifei.tw/wp-content/uploads/2022/01/cropped-1969633532379768751_99-32x32.jpg" sizes="32x32">
+        <img alt="">
+    </div>
+    <div>
+        <img class="square"
+             alt="pic"
+             src="rat.jpg"
+             srcset="rat.jpg 400w,
+                     rat.jpg 800w,
+                     rat.jpg 1200w"
+             sizes="(max-width: 600px) 400px,
+                    (max-width: 1024px) 800px,
+                    1200px">
+    </div>
+    <div id="main-content">
+        <h1 style="font-size: 30px;"> 
+            This page is error.<br>Please try again or turn to another page.
+        </h1>
+        <p style="font-size: 30px; color: white;">
+            Surprises can be found on this page.
+        </p>
+    </div>
+
+    <div>
+        <input class="button" type="button"
+                onclick="location.href='https://feifei.tw/'"
+                value="首頁"
+                style="width:200px;height:80px;">
+    </div>
+    <div>
+        <input class="button2" type="button"
+                onclick="location.href='https://rdrc.mnd.gov.tw/RdrcWeb/Account/Login?ReturnUrl=%2FRdrcWeb%2FSoldier%2FSignup%2F/'"
+                value="首頁"
+                style="width:200px;height:80px;">
+    </div>
+    <div>
+        <input class="button3" type="button"
+                onclick="location.href='https://memeprod.ap-south-1.linodeobjects.com/user-maker/190d2abfc32d18ecba34c105f5472930.gif'"
+                value="首頁"
+                style="width:200px;height:80px;">
+    </div>
+    <div id="text"></div>
+    <script>
+        // 延遲載入 LCP 元素
+        window.addEventListener("load", function() {
+            const lcpElement = document.querySelector("#main-content");
+            lcpElement.style.visibility = "visible";
+        });
+    </script>
+
+</body>
